@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    /* outline: 1px red solid; */
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.btn-1 {
+    width: 143px;
+    border: 1px solid white;
+    background: #312ECB;
+    color: white;
+}
+
+.btn-2 {
+    width: 187px;
+    height: 40px;
+    text-align: center;
+    background: #312ECB;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.section-1 {
+    margin-top: 70px;
+}
+
+p {
+    font-size: 18px;
+    color: #6B717C;
+    line-height: 30px;
+}
+
+.gambar-section1 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+}
+
+.gambar-section2 {
+    width: 300x;
+    height: 500px;
+}
+
+h4,
+h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0D1C37;
+    font-size: 40px;
+}
+
+.span {
+    width: 100px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+    color: #0D1C37;
+}
+
+.text-p {
+    margin-top: 100px;
+}
+
+.kutipan {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.section-3 {
+    margin-top: 150px;
+}
+
+.section-consul {
+    margin-top: 150px;
+}
+
+.bg-color {
+    background-image: url(image/vectorbackground.png);
+    background-size: cover;
+}
+
+.text-h1 {
+    color: #0D1C37;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.card-image {
+    width: 60;
+    height: 60;
+    margin-top: 20px;
+}
+
+.bg-image {
+    background-color: #0D1C37;
+}
+
+.card-text {
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #0D1C37;
+    margin: auto;
+    margin-top: 70px;
+    height: auto;
+}
+
+.logo-footer {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.copyright {
+    background-color: #D9D9D9;
+    margin: auto;
+    overflow: hidden;
+}
+
+.copyright .kiri p {
+    color: black;
+    padding-top: 15px;
+    float: left;
+}
+
+.service-footer {
+    width: 100%;
+    list-style: none;
+}
+
+.service-footer li {
+    color: white;
+    font-size: 18px;
+}
+
+.copyright .kanan {
+    float: right;
+    padding-top: 15px;
+}
+
+.conten-gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D9D9D9;
+    height: 100px;
+}
+
+.conten-gambar img {
+    width: 100%;
+    padding: 20px;
+}
+
+.img-text {
+    position: absolute;
+    top: 15;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.img-carausel {
+    width: 90%;
+    height: 300px;
+    position: relative;
+}
+
+.text-title1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    display: inline-block;
+    font-family: inter;
+    color: white;
+    position: absolute;
+    left: 150;
+    top: 60;
+}
+
+.text-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+
+.conten-gambar .img-margin {
+    height: 80px;
+    margin-left: 30px;
+}

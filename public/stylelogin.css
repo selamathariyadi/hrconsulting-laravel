@@ -1,0 +1,48 @@
+*,
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5860A6;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border-radius: 20px;
+    margin: 125px auto;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #5860A6;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(14, 116, 31);
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .kiri-side {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .kanan-side {
+        display: none;
+    }
+}
